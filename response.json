@@ -1,0 +1,76 @@
+{
+    "title": "CIAZ",
+    "startTime": "2023-02-03T17:03:51.777Z",
+    "endTime": "2023-02-03T17:03:51.777Z",
+    "locations": {
+        "source": "Sathyamangalam. Erode district. Tamil Nacio. 035401.",
+        "destination": "1.2 Kms from Gobichettipalayam, Erode district, Tamil Nadu, 638476, India"
+    },
+    "parked_status": {
+        "isParked": false,
+        "dateTime": "2023-02-03T16:13:21.464Z",
+        "distance": 0
+    },
+    "timeline": [
+        {
+            "isScheduled": true,
+            "scheduled": {
+                "time": "2023-02-03T16:13:21.464Z",
+                "as": "SFO -LAX",
+                "conf": "DL1234",
+                "id": "AS 1930",
+                "seat": "19B",
+                "arn": "2023-02-03T16:13:21.465Z"
+            },
+            "unScheduledMsg": "1 hr 15 mins"
+        },
+        {
+            "isScheduled": false,
+            "scheduled": {
+                "time": "2023-02-03T16:13:21.464Z",
+                "as": "SFO -LAX",
+                "conf": "DL1234",
+                "id": "AS 1930",
+                "seat": "19B",
+                "arn": "2023-02-03T16:13:21.465Z"
+            },
+            "unScheduledMsg": "1 hr 15 mins"
+        },
+        {
+            "isScheduled": true,
+            "scheduled": {
+                "time": "2023-02-03T16:13:21.464Z",
+                "as": "SFO -LAX",
+                "conf": "DL1234",
+                "id": "AS 1930",
+                "seat": "19B",
+                "arn": "2023-02-03T16:13:21.465Z"
+            },
+            "unScheduledMsg": "1 hr 15 mins"
+        },
+        {
+            "isScheduled": false,
+            "scheduled": {
+                "time": "2023-02-03T16:13:21.464Z",
+                "as": "SFO -LAX",
+                "conf": "DL1234",
+                "id": "AS 1930",
+                "seat": "19B",
+                "arn": "2023-02-03T16:13:21.465Z"
+            },
+            "unScheduledMsg": "1 hr 15 mins"
+        },
+        {
+            "isScheduled": false,
+            "scheduled": {
+                "time": "2023-02-03T16:13:21.464Z",
+                "as": "SFO -LAX",
+                "conf": "DL1234",
+                "id": "AS 1930",
+                "seat": "19B",
+                "arn": "2023-02-03T16:13:21.465Z"
+            },
+            "unScheduledMsg": "1 hr 15 mins"
+        }
+    ]
+}

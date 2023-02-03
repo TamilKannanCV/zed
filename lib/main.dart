@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:zed/api/api.dart';
+import 'package:zed/models/custom_response/custom_response.dart';
 import 'package:zed/screens/home_screen.dart';
 
 void main() {
@@ -11,7 +14,11 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: FutureProvider<CustomResponse?>(
+        create: (context) => Api().getData(),
+        initialData: null,
+        child: const HomeScreen(),
+      ),
     );
   }
 }
